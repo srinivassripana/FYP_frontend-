@@ -1,14 +1,8 @@
-import './App.css'
-import Interface from './interface'
+import Interface from "./pages/Interface";
+import "./styles/global.css";
 
 function App() {
-  
-
-  return (
-    <>
-      <Interface />
-    </>
-  )
+  return <Interface />;
 }
 
-export default App
+export default App;
